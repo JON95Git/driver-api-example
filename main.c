@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "include/driver.h"
 
-const struct context ctx;
-
 int main()
 {
     int ret = 0;
@@ -14,6 +12,7 @@ int main()
     }
 
     driver_api_get(&ctx, buff);
+    driver_api_set(&ctx, 10);
 
     return 0;
 }
