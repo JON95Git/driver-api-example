@@ -52,3 +52,5 @@ The output depends on the builded target:
     Not implemented
     Not implemented
     ```
+The API initialization requires an up to date toolchain (C99 or newer).
+Using older toolchain requires change the the API initialization.
